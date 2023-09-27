@@ -13,5 +13,5 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: Test
         run: |
-          docker build -t ghcr.io/Browsers-software/demo:latest https://github.com/docker/rootfs.git#container:docker
-          docker push ghcr.io/Browsers-software/demo:latest
+          docker build -t ghcr.io/browsers-software/demo:latest https://github.com/docker/rootfs.git#container:docker
+          docker push ghcr.io/browsers-software/demo:latest
